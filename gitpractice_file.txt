@@ -1,0 +1,32 @@
+Git practice file
+    1 >> github.com
+    2>> create repository
+    3>> configure with cmd  -- Go to folder path on top search and select URL AND THEN type cmd and ENTER
+    4>> In CMD window type--> git config --global  user.name "Reema2102" 
+    5>> git config --global  user.email "reemakumawatbwr@gmail.com"
+
+    6>> For color --> git config --global color.ui auto
+    
+    7>> git remote add origin Repoitory URL add karege--> git remote add origin https://github.com/Reema2102/GitDemo.git
+    
+    8>> pull reqest--> git pull origin main
+    
+    9>> Push-->
+    1 Check status ---> git status
+
+    2 Add file in remote site then -- > git add file name
+                                        git status
+                                        git commit -m "Commit Message"
+                                        git push      
+      or                
+
+      Add all files at once then --> git add .
+                                     git status
+                                     git commit -m "Commit Message"
+                                     git push   
+
+10--> Create a new brach 
+      git checkout -b "branch name"
+      
+      git checkout -b "day1Branch"
+      
